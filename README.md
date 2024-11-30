@@ -1,21 +1,46 @@
-# Task-Manager
+# Task Manager
 
-Project Overview:
-This project is a Python-based Task Manager designed to help users effectively organize and manage their tasks. It allows for task creation, editing, deletion, and prioritization, all while ensuring data persistence through file handling. The program emphasizes user-friendly operation and robust error handling to deliver a seamless experience.
+This Python-based Task Manager helps users organize and manage their tasks efficiently. It includes features for user authentication, task creation, and storage through file handling. The program emphasizes simplicity and reliability, offering a practical solution for managing daily tasks.
 
-Features:
-Task Management: Create, edit, delete, and prioritize tasks.
-Data Persistence: Store tasks in files for easy retrieval and updates.
-Error Handling: Ensures reliability with comprehensive validation for user inputs.
-User-Friendly Design: Intuitive prompts and commands for smooth interaction.
+## Features
 
-Technologies Used:
-Programming Language: Python
-Core Concepts: File handling, modular programming, input validation, and data management.
+- **User Authentication**: Secure login system using credentials stored in `user.txt`.
+- **Task Management**:
+  - Add new tasks
+  - View existing tasks
+  - Mark tasks as complete
+  - Generate task-related reports
+- **File Handling**:
+  - Persistent data storage for users and tasks
+  - Easy retrieval and updates
 
-Skills Demonstrated:
-Python programming
-Error handling and debugging
-File input/output operations
-Data structuring and task automation
-Problem-solving and algorithmic thinking
+## Technologies Used
+
+- **Programming Language**: Python
+- **Libraries**: `datetime` (for handling dates and timestamps)
+
+
+## Skills Demonstrated
+
+- File input/output operations
+- String manipulation and parsing
+- Modular programming
+- Problem-solving and debugging
+
+
+## File Structure
+
+- **`user.txt`**: Stores user credentials in the format `username, password`.
+- **`tasks.txt`**: Stores task information, including:
+  - Assigned user
+  - Task title
+  - Task description
+  - Due date
+  - Completion status
+
+## Future Enhancements
+
+- Add a graphical user interface (GUI) for improved usability.
+- Enable task categorization for better organization.
+- Implement notifications for approaching deadlines.
+
